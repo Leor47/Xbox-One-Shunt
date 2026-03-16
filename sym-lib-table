@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TLV3201AIDCKR")(type "KiCad")(uri "${KIPRJMOD}/TLV3201AIDCKR/TLV3201AIDCKR.kicad_sym")(options "")(descr ""))
+)
