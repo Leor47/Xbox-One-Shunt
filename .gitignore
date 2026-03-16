@@ -1,1 +1,5 @@
 Xbox*one*shunt-backups/
+*.bak
+*.tmp
+*.lck
+*.autosave
