@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
-  (lib (name "TLV3201AIDCKR")(type "KiCad")(uri "${KIPRJMOD}/TLV3201AIDCKR/TLV3201AIDCKR.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV3201AIDCKR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TLV3201AIDCKR/TLV3201AIDCKR.kicad_sym")(options "")(descr ""))
+  (lib (name "HRS_U.FL-R-SMT-1_10_")(type "KiCad")(uri "${KIPRJMOD}/Libraries/U.FL-R-SMT-1_10_/HRS_U.FL-R-SMT-1_10_.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV3201AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TLV3201AIDBVR/TLV3201AIDBVR.kicad_sym")(options "")(descr ""))
 )
