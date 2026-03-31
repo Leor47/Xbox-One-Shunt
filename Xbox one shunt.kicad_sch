@@ -500,11 +500,7 @@
 			)
 			(embedded_fonts no)
 		)
-<<<<<<< Updated upstream
-		(symbol "TLV3201AIDCKR:TLV3201AIDCKR"
-=======
 		(symbol "TLV3201AIDBVR:TLV3201AIDBVR"
->>>>>>> Stashed changes
 			(pin_names
 				(offset 1.016)
 			)
@@ -512,11 +508,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-<<<<<<< Updated upstream
-				(at -12.7 11.16 0)
-=======
 				(at 2.54 3.175 0)
->>>>>>> Stashed changes
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -524,13 +516,8 @@
 					(justify left bottom)
 				)
 			)
-<<<<<<< Updated upstream
-			(property "Value" "TLV3201AIDCKR"
-				(at -12.7 -14.16 0)
-=======
 			(property "Value" "TLV3201AIDBVR"
 				(at 2.54 -5.08 0)
->>>>>>> Stashed changes
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -538,11 +525,7 @@
 					(justify left bottom)
 				)
 			)
-<<<<<<< Updated upstream
-			(property "Footprint" "TLV3201AIDCKR:SOT65P210X110-5N"
-=======
 			(property "Footprint" "TLV3201AIDBVR:TLV3201AIDBVR"
->>>>>>> Stashed changes
 				(at 0 0 0)
 				(effects
 					(font
@@ -570,11 +553,7 @@
 					(hide yes)
 				)
 			)
-<<<<<<< Updated upstream
-			(property "MF" "Texas Instruments"
-=======
 			(property "PARTREV" "B"
->>>>>>> Stashed changes
 				(at 0 0 0)
 				(effects
 					(font
@@ -584,11 +563,7 @@
 					(hide yes)
 				)
 			)
-<<<<<<< Updated upstream
-			(property "Description_1" "5.5-V, high-speed, single push-pull comparator"
-=======
 			(property "MANUFACTURER" "Texas Instruments"
->>>>>>> Stashed changes
 				(at 0 0 0)
 				(effects
 					(font
@@ -598,11 +573,7 @@
 					(hide yes)
 				)
 			)
-<<<<<<< Updated upstream
-			(property "Package" "SC70-5 Texas Instruments"
-=======
 			(property "MAXIMUM_PACKAGE_HEIGHT" "1.45mm"
->>>>>>> Stashed changes
 				(at 0 0 0)
 				(effects
 					(font
@@ -612,11 +583,7 @@
 					(hide yes)
 				)
 			)
-<<<<<<< Updated upstream
-			(property "Price" "None"
-=======
 			(property "STANDARD" "IPC-7351B"
->>>>>>> Stashed changes
 				(at 0 0 0)
 				(effects
 					(font
@@ -626,76 +593,6 @@
 					(hide yes)
 				)
 			)
-<<<<<<< Updated upstream
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLV3201AIDCKR/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "TLV3201AIDCKR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TLV3201AIDCKR/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TLV3201AIDCKR_0_0"
-				(rectangle
-					(start -12.7 -10.16)
-					(end 12.7 10.16)
-					(stroke
-						(width 0.41)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-=======
 			(symbol "TLV3201AIDBVR_0_0"
 				(polyline
 					(pts
@@ -767,13 +664,12 @@
 					)
 					(fill
 						(type none)
->>>>>>> Stashed changes
 					)
 				)
 				(pin input line
-					(at -17.78 0 0)
+					(at -10.16 2.54 0)
 					(length 5.08)
-					(name "IN-"
+					(name "~"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -788,10 +684,28 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 7.62 180)
+				(pin input line
+					(at -10.16 -2.54 0)
 					(length 5.08)
-					(name "VCC"
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -806,28 +720,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 17.78 -7.62 180)
+					(at 0 -7.62 90)
 					(length 5.08)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -835,6 +731,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1174,8 +1088,8 @@
 		)
 	)
 	(rectangle
-		(start 149.86 43.18)
-		(end 187.96 68.58)
+		(start 186.69 78.74)
+		(end 224.79 104.14)
 		(stroke
 			(width 0)
 			(type default)
@@ -1186,9 +1100,6 @@
 		(uuid 352aab83-c0c7-4e6f-84c7-ba321cb7e75e)
 	)
 	(junction
-<<<<<<< Updated upstream
-		(at 52.07 49.53)
-=======
 		(at 100.33 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1196,25 +1107,17 @@
 	)
 	(junction
 		(at 100.33 85.09)
->>>>>>> Stashed changes
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51f0eaae-85ae-401f-b408-6ea89ee9d871")
 	)
 	(junction
-<<<<<<< Updated upstream
-		(at 52.07 44.45)
-=======
 		(at 114.3 85.09)
->>>>>>> Stashed changes
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c0c1704-9108-4dde-b081-01d1cf2783d2")
 	)
 	(junction
-<<<<<<< Updated upstream
-		(at 86.36 58.42)
-=======
 		(at 158.75 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1222,79 +1125,29 @@
 	)
 	(junction
 		(at 134.62 110.49)
->>>>>>> Stashed changes
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca6d83cb-c953-4e46-a989-38370ffb5840")
 	)
 	(junction
-<<<<<<< Updated upstream
-		(at 113.03 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7df4f580-1a4d-47bd-a49a-1855da8d9ec9")
-	)
-	(junction
-		(at 86.36 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88a206f0-d9ef-4c28-a270-9c6b1147edf1")
-	)
-	(junction
-		(at 114.3 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a0bb5ad-2f1c-4b12-8eb4-e6c2a6216e02")
-	)
-	(junction
-		(at 69.85 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ade84813-fb68-4c73-a340-ebe2cd98dc91")
-	)
-	(junction
-		(at 118.11 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2e6e1f8-fa26-48cb-821d-af5e306e8486")
-=======
 		(at 134.62 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e602d869-780e-411a-930c-5de833626862")
->>>>>>> Stashed changes
-	)
-	(junction
-		(at 43.18 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1c70400-005e-44ae-be50-7ff0140c3a2f")
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 93.98 101.6) (xy 113.03 101.6)
-=======
 			(xy 100.33 106.68) (xy 100.33 102.87)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< Updated upstream
-		(uuid "0189e608-7d8a-4a26-9c7d-026a19682423")
-	)
-	(wire
-		(pts
-			(xy 52.07 49.53) (xy 76.2 49.53)
-=======
 		(uuid "076fa937-0233-43d1-8804-4f26cbda0d4a")
 	)
 	(wire
 		(pts
 			(xy 100.33 85.09) (xy 104.14 85.09)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -1304,31 +1157,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 109.22 80.01) (xy 113.03 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0865fba6-e9d1-45bf-b438-4c5acd5c9ce5")
-	)
-	(wire
-		(pts
-			(xy 43.18 82.55) (xy 43.18 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18be39aa-1046-4de4-b485-93c65f25eced")
-	)
-	(wire
-		(pts
-			(xy 60.96 80.01) (xy 73.66 80.01)
-=======
 			(xy 134.62 85.09) (xy 124.46 85.09)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -1338,11 +1167,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 86.36 58.42) (xy 86.36 55.88)
-=======
 			(xy 114.3 106.68) (xy 114.3 102.87)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -1352,11 +1177,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 52.07 49.53) (xy 52.07 55.88)
-=======
 			(xy 114.3 85.09) (xy 114.3 97.79)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -1366,35 +1187,17 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 118.11 63.5) (xy 118.11 60.96)
-=======
 			(xy 114.3 85.09) (xy 116.84 85.09)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< Updated upstream
-		(uuid "2fa2ad48-5012-450e-816e-430b0860e33e")
-	)
-	(wire
-		(pts
-			(xy 69.85 82.55) (xy 69.85 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34c4286a-3c09-4416-99f7-869cc5b8a954")
-=======
 		(uuid "2a43a3c8-11b6-4e4c-9a7b-eb787957d72e")
->>>>>>> Stashed changes
 	)
 	(wire
 		(pts
-			(xy 171.45 54.61) (xy 171.45 58.42)
+			(xy 208.28 90.17) (xy 208.28 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1404,29 +1207,17 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 43.18 82.55) (xy 69.85 82.55)
-=======
 			(xy 100.33 82.55) (xy 100.33 85.09)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< Updated upstream
-		(uuid "3c266f35-215d-4e66-a024-343f229a79bc")
-	)
-	(wire
-		(pts
-			(xy 43.18 77.47) (xy 43.18 82.55)
-=======
 		(uuid "4faf6ff4-6dfa-473b-9a6d-44ee62909f3c")
 	)
 	(wire
 		(pts
 			(xy 158.75 93.98) (xy 158.75 92.71)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -1436,11 +1227,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 86.36 55.88) (xy 86.36 54.61)
-=======
 			(xy 158.75 81.28) (xy 158.75 85.09)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -1450,11 +1237,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 52.07 44.45) (xy 76.2 44.45)
-=======
 			(xy 111.76 85.09) (xy 114.3 85.09)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -1464,11 +1247,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 91.44 46.99) (xy 96.52 46.99)
-=======
 			(xy 100.33 106.68) (xy 114.3 106.68)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -1478,9 +1257,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 114.3 43.18) (xy 114.3 41.91)
-=======
 			(xy 114.3 97.79) (xy 124.46 97.79)
 		)
 		(stroke
@@ -1492,7 +1268,6 @@
 	(wire
 		(pts
 			(xy 100.33 106.68) (xy 100.33 109.22)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -1502,11 +1277,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 114.3 30.48) (xy 114.3 34.29)
-=======
 			(xy 134.62 85.09) (xy 158.75 85.09)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -1516,39 +1287,17 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 69.85 82.55) (xy 73.66 82.55)
-=======
 			(xy 144.78 100.33) (xy 147.32 100.33)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< Updated upstream
-		(uuid "5d06c684-a8e1-4f57-9113-cf65972a7b1b")
-	)
-	(wire
-		(pts
-			(xy 96.52 64.77) (xy 96.52 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fc69fb1-1956-4129-81f9-84bc47d3bc16")
-	)
-	(wire
-		(pts
-			(xy 118.11 71.12) (xy 118.11 69.85)
-=======
 		(uuid "a46d9f24-c72e-4943-b1db-d4b322f7d1c9")
 	)
 	(wire
 		(pts
 			(xy 134.62 107.95) (xy 134.62 110.49)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -1558,85 +1307,17 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 43.18 68.58) (xy 43.18 69.85)
-=======
 			(xy 158.75 85.09) (xy 170.18 85.09)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< Updated upstream
-		(uuid "8940f3be-60a4-4bb7-ba0f-07bcc67d6c65")
-	)
-	(wire
-		(pts
-			(xy 113.03 80.01) (xy 113.03 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dac39dc-5db7-4e2d-82da-40fc8fa7cbf4")
-	)
-	(wire
-		(pts
-			(xy 78.74 58.42) (xy 86.36 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9046d120-f26e-4ad8-ac1a-b31475d411b0")
-	)
-	(wire
-		(pts
-			(xy 109.22 60.96) (xy 109.22 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a782416-658a-4ee4-8256-89b51674f20e")
-	)
-	(wire
-		(pts
-			(xy 81.28 54.61) (xy 81.28 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fa2266b-12de-469a-9e63-e7e9b892afb5")
-	)
-	(wire
-		(pts
-			(xy 109.22 60.96) (xy 118.11 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8f17301-85b4-4276-9d05-09a3f5f95d47")
-	)
-	(wire
-		(pts
-			(xy 81.28 34.29) (xy 81.28 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae2525b5-ea49-4ab7-9d17-7976e922f2c0")
-=======
 		(uuid "aa518644-79c8-4571-a148-b0ffa12a60f6")
->>>>>>> Stashed changes
 	)
 	(wire
 		(pts
-			(xy 163.83 54.61) (xy 163.83 58.42)
+			(xy 200.66 90.17) (xy 200.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1646,11 +1327,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 114.3 34.29) (xy 125.73 34.29)
-=======
 			(xy 114.3 102.87) (xy 124.46 102.87)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -1660,11 +1337,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 60.96 64.77) (xy 96.52 64.77)
-=======
 			(xy 134.62 85.09) (xy 134.62 92.71)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -1674,145 +1347,26 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 60.96 80.01) (xy 60.96 64.77)
-=======
 			(xy 100.33 85.09) (xy 100.33 97.79)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< Updated upstream
-		(uuid "c72f0287-1be8-47b3-a5a4-c7b1a76d5c43")
-	)
-	(wire
-		(pts
-			(xy 52.07 35.56) (xy 52.07 44.45)
-=======
 		(uuid "e766ffc9-2837-4772-92bb-b726ab46bc26")
 	)
 	(wire
 		(pts
 			(xy 134.62 110.49) (xy 147.32 110.49)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< Updated upstream
-		(uuid "d57d1c3d-0d7f-4e89-97f0-e258b87be570")
-	)
-	(wire
-		(pts
-			(xy 81.28 55.88) (xy 86.36 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1d56cf-1beb-4366-926d-caff973cb5b3")
-	)
-	(wire
-		(pts
-			(xy 113.03 80.01) (xy 128.27 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5f09251-869d-4709-ba10-e21cda43b9c2")
-	)
-	(wire
-		(pts
-			(xy 118.11 59.69) (xy 118.11 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e93885c6-d94f-4688-ab23-a560ac52845b")
-	)
-	(wire
-		(pts
-			(xy 69.85 101.6) (xy 86.36 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f767cd03-78bf-4fe0-b9f4-ea5356a7aa7f")
-	)
-	(wire
-		(pts
-			(xy 114.3 34.29) (xy 81.28 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8e86e89-7b57-4ba2-850c-a93911effa63")
-	)
-	(label "SHUNT_L"
-		(at 64.77 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "078607b7-ce00-4d4a-ae61-285f8f7aa3e4")
-	)
-	(label "SIDE_CHANNEL+"
-		(at 52.07 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1bba6aa5-4df3-4374-8663-b4d20a6e31b3")
-	)
-	(label "VREF"
-		(at 63.5 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b681170-26a7-4294-ad3a-9cfe6c9fe7eb")
-	)
-	(label "AMP_OUT"
-		(at 63.5 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "657c59a5-6116-4066-9daa-f7387567069b")
-	)
-	(label "SIDE_CHANNEL-"
-		(at 52.07 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ee40c58-c719-4e7a-8ad5-1c0a0060173a")
-	)
-	(label "CMP_OUT"
-		(at 128.27 80.01 180)
-=======
 		(uuid "f461877d-5695-4fd2-b5f3-8ae685d9db7f")
 	)
 	(label "SIDE_CHANNEL+"
 		(at 100.33 109.22 180)
->>>>>>> Stashed changes
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1821,38 +1375,19 @@
 		)
 		(uuid "72606526-7c79-4e88-8d24-7a05cd8f6f15")
 	)
-<<<<<<< Updated upstream
-	(label "AMP_OUT"
-		(at 96.52 46.99 0)
-=======
 	(label "SIDE_CHANNEL-"
 		(at 100.33 83.82 180)
->>>>>>> Stashed changes
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-<<<<<<< Updated upstream
-		(uuid "c784fa24-edca-4fd0-aeef-959f7c185310")
-	)
-	(label "SHUNT_H"
-		(at 64.77 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db1ef1b6-bab4-42ae-a6c4-8ffe460a3690")
-=======
 		(uuid "b908d967-ac23-483b-80dd-f35c84c78563")
->>>>>>> Stashed changes
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 163.83 54.61 0)
+		(at 200.66 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1861,7 +1396,7 @@
 		(fields_autoplaced yes)
 		(uuid "1050a2cc-b66b-436c-b394-fc121f542039")
 		(property "Reference" "#FLG01"
-			(at 163.83 52.705 0)
+			(at 200.66 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +1405,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 163.83 49.53 0)
+			(at 200.66 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 54.61 0)
+			(at 200.66 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +1422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 54.61 0)
+			(at 200.66 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,7 +1431,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 163.83 54.61 0)
+			(at 200.66 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,28 +1452,16 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-		(lib_id "power:GND")
-		(at 43.18 93.98 0)
-=======
 		(lib_id "TLV3201AIDBVR:TLV3201AIDBVR")
 		(at 134.62 100.33 0)
->>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-<<<<<<< Updated upstream
-		(fields_autoplaced yes)
-		(uuid "11877c6b-a19d-4de4-b525-3f672fc9b6ff")
-		(property "Reference" "#PWR09"
-			(at 43.18 100.33 0)
-=======
 		(uuid "163ad62d-c351-4381-b440-4002d9327ede")
 		(property "Reference" "U2"
 			(at 137.668 107.188 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,13 +1469,8 @@
 				(justify left)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Value" "GND"
-			(at 43.18 99.06 0)
-=======
 		(property "Value" "TLV3201AIDBVR"
 			(at 137.668 104.648 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,13 +1478,8 @@
 				(justify left)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Footprint" ""
-			(at 43.18 93.98 0)
-=======
 		(property "Footprint" "TLV3201AIDBVR:TLV3201AIDBVR"
 			(at 134.62 100.33 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,11 +1489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< Updated upstream
-			(at 43.18 93.98 0)
-=======
 			(at 134.62 100.33 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,13 +1497,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 93.98 0)
-=======
 		(property "Description" ""
 			(at 134.62 100.33 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,28 +1571,16 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-		(lib_id "Device:R")
-		(at 43.18 73.66 0)
-=======
 		(lib_id "Connector:TestPoint")
 		(at 147.32 100.33 270)
->>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-<<<<<<< Updated upstream
-		(fields_autoplaced yes)
-		(uuid "197f3a77-bce2-42eb-85f5-979e816c1207")
-		(property "Reference" "R1"
-			(at 45.72 72.3899 0)
-=======
 		(uuid "2b2e5c81-3d33-4c87-92ee-f8c4078def18")
 		(property "Reference" "CMP1"
 			(at 146.05 97.282 90)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,13 +1588,8 @@
 				(justify left)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Value" "12kΩ"
-			(at 45.72 74.9299 0)
-=======
 		(property "Value" "TestPoint"
 			(at 152.4 101.5999 90)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,13 +1598,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 41.402 73.66 90)
-=======
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 147.32 105.41 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,11 +1608,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< Updated upstream
-			(at 43.18 73.66 0)
-=======
 			(at 147.32 105.41 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,13 +1616,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Description" "Resistor"
-			(at 43.18 73.66 0)
-=======
 		(property "Description" "test point"
 			(at 147.32 100.33 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,89 +1626,12 @@
 			)
 		)
 		(pin "1"
-<<<<<<< Updated upstream
-			(uuid "657ed43c-262c-48a7-a4a3-1fa0979db3c5")
-		)
-		(pin "2"
-			(uuid "37199b9d-c3e8-4fcd-9482-e864c587c60a")
-		)
-		(instances
-			(project ""
-				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22fd1fda-c309-4a9b-ae96-0c3e1a11ceba")
-		(property "Reference" "#PWR05"
-			(at 86.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 63.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9498391-4914-4344-b88c-2326cf853c5b")
-		)
-		(instances
-			(project ""
-				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-					(reference "#PWR05")
-=======
 			(uuid "262472e8-1567-4b80-b4b0-eae157c6d87a")
 		)
 		(instances
 			(project "Xbox one shunt"
 				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
 					(reference "CMP1")
->>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -2243,95 +1639,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-<<<<<<< Updated upstream
-		(at 114.3 38.1 0)
-=======
 		(at 158.75 88.9 0)
->>>>>>> Stashed changes
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-<<<<<<< Updated upstream
-		(uuid "3c7939d6-b49d-41c9-bfe9-1322a1358d04")
-		(property "Reference" "C1"
-			(at 118.11 39.3701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 118.11 36.8301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 115.2652 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 114.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "027961c9-698d-4f19-93e4-cf1747d9f1d1")
-		)
-		(pin "1"
-			(uuid "4f1f10e4-d7f5-41a6-b7ee-ca7517ace52e")
-		)
-		(instances
-			(project "Xbox one shunt"
-				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 118.11 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d738de7-4400-403a-bc07-6be0069b6c65")
-		(property "Reference" "C2"
-			(at 125.476 68.072 0)
-=======
 		(uuid "4148d2ad-01a4-46f7-8ac5-c00a8cd0faec")
 		(property "Reference" "C2"
 			(at 162.56 90.1701 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,11 +1657,7 @@
 			)
 		)
 		(property "Value" "100nF"
-<<<<<<< Updated upstream
-			(at 127.762 65.278 0)
-=======
 			(at 162.56 87.6301 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,11 +1666,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-<<<<<<< Updated upstream
-			(at 117.1448 63.5 0)
-=======
 			(at 159.7152 85.09 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,11 +1675,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< Updated upstream
-			(at 118.11 67.31 0)
-=======
 			(at 158.75 88.9 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,11 +1684,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-<<<<<<< Updated upstream
-			(at 118.11 67.31 0)
-=======
 			(at 158.75 88.9 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,28 +1708,17 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-		(lib_id "power:+3.3V")
-		(at 114.3 30.48 0)
-=======
 		(lib_id "power:GND")
 		(at 134.62 110.49 0)
->>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-<<<<<<< Updated upstream
-		(uuid "47e03ecb-03e1-4612-918e-ae3098d274b4")
-		(property "Reference" "#PWR03"
-			(at 114.3 34.29 0)
-=======
 		(fields_autoplaced yes)
 		(uuid "42f1bcff-ed17-4b43-8872-9b9d90dc80cb")
 		(property "Reference" "#PWR015"
 			(at 134.62 116.84 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,13 +1726,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Value" "+3.3V"
-			(at 114.2999 26.67 0)
-=======
 		(property "Value" "GND"
 			(at 134.62 115.57 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,11 +1735,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< Updated upstream
-			(at 114.3 30.48 0)
-=======
 			(at 134.62 110.49 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,11 +1744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< Updated upstream
-			(at 114.3 30.48 0)
-=======
 			(at 134.62 110.49 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,13 +1752,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 114.3 30.48 0)
-=======
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 110.49 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,28 +1774,17 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-		(lib_id "power:+3.3V")
-		(at 118.11 59.69 0)
-=======
 		(lib_id "power:GND")
 		(at 158.75 93.98 0)
->>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-<<<<<<< Updated upstream
-		(uuid "48dbef71-2b39-413d-8ca9-885a2761cf8d")
-		(property "Reference" "#PWR07"
-			(at 118.11 63.5 0)
-=======
 		(fields_autoplaced yes)
 		(uuid "65d9318c-7390-408c-9675-33b0c3c2a65a")
 		(property "Reference" "#PWR014"
 			(at 158.75 100.33 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,13 +1792,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Value" "+3.3V"
-			(at 117.856 54.356 0)
-=======
 		(property "Value" "GND"
 			(at 158.75 99.06 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,11 +1801,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< Updated upstream
-			(at 118.11 59.69 0)
-=======
 			(at 158.75 93.98 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,11 +1810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< Updated upstream
-			(at 118.11 59.69 0)
-=======
 			(at 158.75 93.98 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,13 +1818,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 118.11 59.69 0)
-=======
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 158.75 93.98 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,27 +1840,16 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-		(lib_id "Amplifier_Current:INA181")
-		(at 83.82 46.99 0)
-=======
 		(lib_id "Device:R_Small")
 		(at 100.33 100.33 0)
->>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-<<<<<<< Updated upstream
-		(uuid "55fffef7-9ed0-4a98-bcee-d7e63c7ff3ee")
-		(property "Reference" "U1"
-			(at 87.122 40.132 0)
-=======
 		(uuid "69dbe5f2-c4b3-4104-b9f0-78877f074844")
 		(property "Reference" "R3"
 			(at 96.012 99.568 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,13 +1857,8 @@
 				(justify left)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Value" "INA181A1-Q1"
-			(at 90.424 42.926 0)
-=======
 		(property "Value" "R_Shunt 0.5Ω"
 			(at 85.344 101.6 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,13 +1866,8 @@
 				(justify left)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 85.09 45.72 0)
-=======
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 100.33 100.33 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,13 +1875,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina181.pdf"
-			(at 87.63 43.18 0)
-=======
 		(property "Datasheet" "~"
 			(at 100.33 100.33 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,13 +1884,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Description" "Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SOT-23-6"
-			(at 83.82 46.99 0)
-=======
 		(property "Description" "Resistor, small symbol"
 			(at 100.33 100.33 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,186 +1909,16 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-		(lib_id "TLV3201AIDCKR:TLV3201AIDCKR")
-		(at 91.44 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "599101a1-4e46-4c15-bf48-b8dcda300000")
-		(property "Reference" "U2"
-			(at 91.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV3201AIDCKR"
-			(at 91.44 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "5.5-V, high-speed, single push-pull comparator"
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SC70-5 Texas Instruments"
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLV3201AIDCKR/Texas+Instruments/view-part/?ref=snap"
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TLV3201AIDCKR"
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TLV3201AIDCKR/Texas+Instruments/view-part/?ref=eda"
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "d56ca023-a758-4bb1-8fb0-3019c716f9cd")
-		)
-		(pin "2"
-			(uuid "f159de9b-7b03-4746-a3b6-60a1aec1f3af")
-		)
-		(pin "1"
-			(uuid "fe691177-63f8-4d72-90da-737ead333f2c")
-		)
-		(pin "3"
-			(uuid "0c7b251e-8379-405c-96c6-ad29c4315275")
-		)
-		(pin "4"
-			(uuid "b5b1456e-bc52-497b-9eb6-ee233adb5f7d")
-		)
-		(instances
-			(project ""
-				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 69.85 0)
-=======
 		(lib_id "power:+3.3V")
 		(at 158.75 81.28 0)
->>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-<<<<<<< Updated upstream
-		(fields_autoplaced yes)
-		(uuid "5d3fff0e-7805-4a9e-bd8f-2503357e5843")
-		(property "Reference" "#PWR01"
-			(at 118.11 76.2 0)
-=======
 		(uuid "7a0c8c24-1df5-416c-a6e0-f6b569187844")
 		(property "Reference" "#PWR013"
 			(at 158.75 85.09 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,13 +1926,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Value" "GND"
-			(at 118.11 74.93 0)
-=======
 		(property "Value" "+3.3V"
 			(at 158.7499 77.47 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,11 +1936,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< Updated upstream
-			(at 118.11 69.85 0)
-=======
 			(at 158.75 81.28 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,11 +1945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< Updated upstream
-			(at 118.11 69.85 0)
-=======
 			(at 158.75 81.28 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,13 +1953,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 69.85 0)
-=======
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 158.75 81.28 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,213 +1968,7 @@
 		(instances
 			(project "Xbox one shunt"
 				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-<<<<<<< Updated upstream
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 52.07 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6596cbd1-e2cb-4485-9ee2-c2f97db03092")
-		(property "Reference" "TP2"
-			(at 54.61 30.9879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 54.61 33.5279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 57.15 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9c34ab3-a71e-40c3-983d-b8d98e9aa113")
-		)
-		(instances
-			(project "Xbox one shunt"
-				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 128.27 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e001161-b513-4a19-bdea-296269713b1c")
-		(property "Reference" "TP1"
-			(at 133.35 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 133.35 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 128.27 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 128.27 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f235f59f-d40c-468d-8bf0-f61faeedc24e")
-		)
-		(instances
-			(project ""
-				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 109.22 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f4bd2cc-4a97-438b-9ebf-51064ffe25e3")
-		(property "Reference" "#PWR06"
-			(at 109.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3242fe04-fcf7-48bb-aef7-b78465ba6d7f")
-		)
-		(instances
-			(project ""
-				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-					(reference "#PWR06")
-=======
 					(reference "#PWR013")
->>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -3158,7 +1976,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 171.45 54.61 0)
+		(at 208.28 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3166,7 +1984,7 @@
 		(dnp no)
 		(uuid "8396bb7b-817c-4aa5-9353-b6ab9b949f3b")
 		(property "Reference" "#PWR010"
-			(at 171.45 58.42 0)
+			(at 208.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,7 +1993,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 171.4499 50.8 0)
+			(at 208.2799 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3184,7 +2002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 54.61 0)
+			(at 208.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +2011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 54.61 0)
+			(at 208.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +2020,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 171.45 54.61 0)
+			(at 208.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,94 +2041,16 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-		(lib_id "power:GND")
-		(at 114.3 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8592cda2-8210-4b3d-9fe7-380276ae098e")
-		(property "Reference" "#PWR02"
-			(at 114.3 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d649487-c5c1-4b5a-9749-8d81cdadc9cb")
-		)
-		(instances
-			(project "Xbox one shunt"
-				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 52.07 55.88 180)
-=======
 		(lib_id "Connector:TestPoint")
 		(at 100.33 82.55 0)
->>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-<<<<<<< Updated upstream
-		(fields_autoplaced yes)
-		(uuid "87cf78a6-bfa1-40c0-bfb3-b69e6e0911b3")
-		(property "Reference" "TP3"
-			(at 54.61 57.9119 0)
-=======
 		(uuid "94f62237-dedf-4116-972d-99b2048ce054")
 		(property "Reference" "TP2"
 			(at 102.87 77.9779 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,11 +2059,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-<<<<<<< Updated upstream
-			(at 54.61 60.4519 0)
-=======
 			(at 102.87 80.5179 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,11 +2069,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-<<<<<<< Updated upstream
-			(at 46.99 55.88 0)
-=======
 			(at 105.41 82.55 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,11 +2078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< Updated upstream
-			(at 46.99 55.88 0)
-=======
 			(at 105.41 82.55 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,11 +2087,7 @@
 			)
 		)
 		(property "Description" "test point"
-<<<<<<< Updated upstream
-			(at 52.07 55.88 0)
-=======
 			(at 100.33 82.55 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,219 +2101,7 @@
 		(instances
 			(project "Xbox one shunt"
 				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-<<<<<<< Updated upstream
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 52.07 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "894db9b6-4328-4153-8109-6aba54e9aba0")
-		(property "Reference" "R3"
-			(at 47.752 46.228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Shunt 0.5Ω"
-			(at 37.084 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 52.07 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 52.07 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "039b517a-1f34-4a5d-8641-c1a8d30895c5")
-		)
-		(pin "2"
-			(uuid "21c79cd7-f1bc-4a69-a3af-50549bda54a7")
-		)
-		(instances
-			(project ""
-				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 90.17 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a260b29-8a86-40de-802d-068c17b381e2")
-		(property "Reference" "R4"
-			(at 88.8999 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1MΩ"
-			(at 91.4399 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 90.17 103.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 90.17 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f28f44d9-3f12-438d-b077-0ae3c12a1e4e")
-		)
-		(pin "2"
-			(uuid "d2ef127c-5ded-4e46-b3ff-76a58628ca59")
-		)
-		(instances
-			(project "Xbox one shunt"
-				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 43.18 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "913b4448-ecb5-4314-8ae8-7d5a6c6d44fd")
-		(property "Reference" "R2"
-			(at 45.72 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10KΩ"
-			(at 45.72 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 41.402 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 43.18 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53e54c5b-5616-4387-a1cf-7802c87f82ea")
-		)
-		(pin "2"
-			(uuid "99bfde3c-c97e-4b0e-a869-68af6469062f")
-		)
-		(instances
-			(project ""
-				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-					(reference "R2")
-=======
 					(reference "TP2")
->>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -3597,11 +2109,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-<<<<<<< Updated upstream
-		(at 78.74 58.42 90)
-=======
 		(at 147.32 110.49 270)
->>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3609,13 +2117,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "983caefb-ed74-4ad7-b533-bc80e0fce255")
-<<<<<<< Updated upstream
-		(property "Reference" "TP5"
-			(at 75.438 55.88 90)
-=======
 		(property "Reference" "GND1"
 			(at 152.4 110.4899 90)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,11 +2127,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-<<<<<<< Updated upstream
-			(at 73.66 57.1501 90)
-=======
 			(at 152.4 111.7599 90)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,11 +2137,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-<<<<<<< Updated upstream
-			(at 78.74 53.34 0)
-=======
 			(at 147.32 115.57 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,11 +2146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< Updated upstream
-			(at 78.74 53.34 0)
-=======
 			(at 147.32 115.57 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,11 +2155,7 @@
 			)
 		)
 		(property "Description" "test point"
-<<<<<<< Updated upstream
-			(at 78.74 58.42 0)
-=======
 			(at 147.32 110.49 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3682,7 +2169,7 @@
 		(instances
 			(project "Xbox one shunt"
 				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-					(reference "TP5")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -3690,11 +2177,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-<<<<<<< Updated upstream
-		(at 125.73 34.29 270)
-=======
 		(at 170.18 85.09 270)
->>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3702,13 +2185,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aec517a8-e31d-43e7-afba-44a8f887b324")
-<<<<<<< Updated upstream
-		(property "Reference" "TP4"
-			(at 130.81 33.0199 90)
-=======
 		(property "Reference" "3V3"
 			(at 175.26 83.8199 90)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,11 +2195,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-<<<<<<< Updated upstream
-			(at 130.81 35.5599 90)
-=======
 			(at 175.26 86.3599 90)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,11 +2205,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-<<<<<<< Updated upstream
-			(at 125.73 39.37 0)
-=======
 			(at 170.18 90.17 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,11 +2214,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-<<<<<<< Updated upstream
-			(at 125.73 39.37 0)
-=======
 			(at 170.18 90.17 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,11 +2223,7 @@
 			)
 		)
 		(property "Description" "test point"
-<<<<<<< Updated upstream
-			(at 125.73 34.29 0)
-=======
 			(at 170.18 85.09 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +2237,7 @@
 		(instances
 			(project "Xbox one shunt"
 				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-					(reference "TP4")
+					(reference "3V3")
 					(unit 1)
 				)
 			)
@@ -3783,7 +2245,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 171.45 58.42 180)
+		(at 208.28 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3792,7 +2254,7 @@
 		(fields_autoplaced yes)
 		(uuid "b145132d-ad52-4546-9479-e6cb840e6170")
 		(property "Reference" "#FLG02"
-			(at 171.45 60.325 0)
+			(at 208.28 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +2263,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 171.45 63.5 0)
+			(at 208.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +2271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 58.42 0)
+			(at 208.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +2280,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 58.42 0)
+			(at 208.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +2289,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 171.45 58.42 0)
+			(at 208.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,23 +2310,13 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-		(lib_id "power:+3.3V")
-		(at 43.18 68.58 0)
-=======
 		(lib_id "Device:R")
 		(at 120.65 85.09 90)
->>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-<<<<<<< Updated upstream
-		(uuid "b91f9e4d-757e-48c5-98ba-7333e90091d3")
-		(property "Reference" "#PWR08"
-			(at 43.18 72.39 0)
-=======
 		(uuid "cc6d2bc4-2427-47ed-add5-43591a8d2e75")
 		(property "Reference" "R4"
 			(at 118.618 79.756 90)
@@ -3886,7 +2338,6 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 120.65 86.868 90)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,21 +2345,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Value" "+3.3V"
-			(at 43.18 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 68.58 0)
-=======
 		(property "Datasheet" "~"
 			(at 120.65 85.09 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,22 +2354,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Datasheet" ""
-			(at 43.18 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 43.18 68.58 0)
-=======
 		(property "Description" "Resistor"
 			(at 120.65 85.09 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,14 +2364,6 @@
 			)
 		)
 		(pin "1"
-<<<<<<< Updated upstream
-			(uuid "f6d52c3a-ecb5-4916-a634-41732d2a24a4")
-		)
-		(instances
-			(project ""
-				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
-					(reference "#PWR08")
-=======
 			(uuid "e973be33-ab9f-411d-9bee-d2d0db0072c6")
 		)
 		(pin "2"
@@ -4092,7 +2508,6 @@
 			(project "Xbox one shunt"
 				(path "/89b65d5e-1970-43da-a4f8-2898efff2e94"
 					(reference "TP3")
->>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -4100,7 +2515,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 58.42 0)
+		(at 200.66 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4109,7 +2524,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebcd03c7-cfd0-4fa3-bc67-983c4dfd79b8")
 		(property "Reference" "#PWR04"
-			(at 163.83 64.77 0)
+			(at 200.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +2533,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 63.5 0)
+			(at 200.66 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +2541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 58.42 0)
+			(at 200.66 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +2550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 58.42 0)
+			(at 200.66 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +2559,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 58.42 0)
+			(at 200.66 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
