@@ -1857,7 +1857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Shunt 0.5Ω"
+		(property "Value" "R_Shunt 2.2Ω"
 			(at 85.344 101.6 0)
 			(effects
 				(font
@@ -2396,7 +2396,7 @@
 				)
 			)
 		)
-		(property "Value" "12kΩ"
+		(property "Value" "10kΩ"
 			(at 107.95 81.28 90)
 			(effects
 				(font
