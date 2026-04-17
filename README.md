@@ -7,13 +7,13 @@
 ## Hardware
 
 ### Schematic
-<img src="images/schematic_v1.png" width="700">
+<img src="images/schematic_v2.png" width="700">
 
 ### PCB Layout
-<img src="images/pcb_v1.png" width="700">
+<img src="images/pcb_v2.png" width="700">
 
 ### PCB Render
-<img src="images/render_v1.png" width="700">
+<img src="images/render_v2.png" width="700">
 
 This project implements a small analog front-end designed to detect short current spikes on a low-voltage rail and convert them into a clean digital timing signal suitable for capture by a microcontroller.
 
